@@ -1,4 +1,4 @@
-# Security group to allow SSH and all outbound traffic
+# Security group to allow SSH and all outbound traffic.
 resource "aws_security_group" "main" {
   name        = "main-sg"
   description = "Allow SSH and all outbound traffic"
