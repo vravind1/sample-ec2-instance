@@ -9,6 +9,7 @@ module "ec2_instance" {
   associate_public_ip_address = true
 
 
+
   tags = {
     Terraform   = "true"
     Environment = "dev"
